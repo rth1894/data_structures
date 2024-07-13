@@ -1,7 +1,9 @@
 # Data Structures
 
-## Sorts:
-Currently has
+## Currently has
+
+Sorts
 - Bubble Sort
 - Selection Sort
+
 ---
