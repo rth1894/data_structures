@@ -5,5 +5,4 @@
 Sorts
 - Bubble Sort
 - Selection Sort
-
 ---
