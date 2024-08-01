@@ -4,7 +4,7 @@ void print(int size, int array[]);
 void sort(int size, int array[]);
 void swap(int* x, int* y);
 
-void main() {
+int main() {
         int n;
         printf("Enter number of array elements: ");
         scanf("%d", &n);
@@ -18,6 +18,7 @@ void main() {
         print(n, a);
         printf("Sorted: ");
         sort(n, a);
+        return 0;
 }
 
 void print(int size, int array[]) {
@@ -31,14 +32,13 @@ void sort(int size, int array[]) {
 	int minpos, temp;
 	for (int i=0; i<size; i++) {
 		minpos = i;
-		for (int j=i+1; j<size; j++){
+		for (int j=i+1; j<size; j++)
 			if (array[j] < array[minpos])
 				minpos = j;
-		}
 		if (minpos != i)
 			swap(&array[i], &array[minpos]);
 	}
-	print(size, array);
+        print(size ,array);
 }
 
 void swap(int* x, int* y) {
