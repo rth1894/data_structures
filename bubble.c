@@ -4,7 +4,7 @@ void print(int size, int array[]);
 void sort(int size, int array[]);
 void swap(int* x, int* y);
 
-void main() {
+int main() {
 	int n;
 	printf("Enter number of array elements: ");
 	scanf("%d", &n);
@@ -18,6 +18,7 @@ void main() {
 	print(n, a);
 	printf("Sorted: ");
 	sort(n, a);
+	return 0;
 }
 
 void print(int size, int array[]) {
