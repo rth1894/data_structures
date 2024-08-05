@@ -2,7 +2,7 @@
 
 ## Currently has
 
-1. Sorts
+###### Sorts
 - Bubble Sort
 - Selection Sort
 - Insertion Sort
@@ -10,10 +10,10 @@
 
 ---
 
-2. Matrix Operations
+###### Matrix Operations
 
 ---
 
-3. Queue operations (insert, delete, display)
+###### Queue operations (insert, delete, display)
 
 ---
